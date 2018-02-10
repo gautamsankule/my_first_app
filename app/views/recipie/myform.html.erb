@@ -1,0 +1,6 @@
+<h2>Searching Menu</h2>
+<%= form_tag recipie_name_path  , method: "get" do %>
+ 
+<p> Search : <%= text_field_tag :looking_for %> </p>
+ <%= submit_tag "Enter" %> 
+ <% end %>

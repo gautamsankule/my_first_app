@@ -1,0 +1,2 @@
+class Recipiesearch < ApplicationRecord
+end
